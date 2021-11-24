@@ -67,5 +67,5 @@ async def 공대모집(ctx, *, text): #공격대 모집 구문 5️⃣
 
     except: pass
 
-access_token = os.environ["BOT_TOKEN"]   
-app.run(access_token)
+token = os.environ["BOT_TOKEN"]   
+app.run(token)
