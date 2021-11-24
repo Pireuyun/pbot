@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 app = commands.Bot(command_prefix='')
 token = "OTEyNzc1NzEwMDU2Mjc2MDg4.YZ02nw.YnfcEGIxP1ZS8qNJpjIoPfWwd3E"
@@ -67,4 +68,5 @@ async def 공대모집(ctx, *, text): #공격대 모집 구문 5️⃣
 
     except: pass
 
-app.run(token)
+access_token = os.environ["BOT_TOKEN"]   
+app.run(access_token)
