@@ -2,7 +2,6 @@ import discord
 import os
 from discord.ext import commands
 app = commands.Bot(command_prefix='')
-token = "OTEyNzc1NzEwMDU2Mjc2MDg4.YZ02nw.YnfcEGIxP1ZS8qNJpjIoPfWwd3E"
 
 @app.event
 async def on_ready():
